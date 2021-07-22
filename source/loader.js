@@ -29,4 +29,4 @@ function removeElems() {
 
 // Powered by ShortLoader.js
 // Thank you for installing it to your site!
-// MIT License
+// GNU Lesser General Public License v2.1
