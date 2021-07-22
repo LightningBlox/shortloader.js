@@ -18,3 +18,4 @@ function move() {
   }
 }
 
+// Update Loader.JS
