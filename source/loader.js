@@ -12,16 +12,8 @@ function move() {
       } else {
         width++;
         elem.style.width = width + "%";
+        elem.remove
       }
     }
   }
-}
-
-function removeElems() {
-  const elems = document.querySelectorAll('.bar-div');
-  setTimeout(function() {
-    for (const e of elems) {
-      e.remove();
-    }
-  }, 1200);
 }
