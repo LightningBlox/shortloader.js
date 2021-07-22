@@ -27,4 +27,5 @@ function removeElems() {
  
 }
 
-// Update Loader.JS
+// Powered by ShortLoader.js
+// Thank you for installing it to your site!
