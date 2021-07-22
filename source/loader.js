@@ -13,6 +13,7 @@ function move() {
       } else {
         width++;
         elem.style.width = width + "%";
+        elem.remove();
         elemf.remove();
       }
     }
