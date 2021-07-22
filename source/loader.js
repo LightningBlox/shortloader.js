@@ -14,7 +14,6 @@ function move() {
         width++;
         elem.style.width = width + "%";
         elem.remove();
-        elemf.remove();
       }
     }
   }
@@ -25,11 +24,11 @@ function move() {
 
 function removeElems() {
   
-  console.log("%cShortLoader.js has been loaded! Thank you for using *SHORTLOADER*", "color: black; font-family: sans-serif; font-size: 0.8em; font-weight: bolder;");
+  console.log("%cShortLoader.js has been loaded! Thank you for using *SHORTLOADER*", "color: black; font-family: sans-serif; font-size: 1em; font-weight: bolder;");
  
 }
 
-console.log("Loaded using GITHUB")
+console.log("Loaded using GITHUB.com")
 
 // Powered by ShortLoader.js
 // Thank you for installing it to your site!
