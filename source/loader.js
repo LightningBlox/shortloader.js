@@ -24,6 +24,6 @@ function removeElems() {
     for (const e of elems) {
       e.remove();
     }
-  }, 1400);
+  }, 1600);
 }
 
