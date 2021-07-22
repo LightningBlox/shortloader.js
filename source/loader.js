@@ -23,7 +23,7 @@ function move() {
 
 function removeElems() {
   
-  console.log("%cShortLoader.js has been loaded! Thank you for using *SHORTLOADER*", "color: #a0b5c3; font-family: sans-serif; font-size: 2em; font-weight: bolder;");
+  console.log("%cShortLoader.js has been loaded! Thank you for using *SHORTLOADER*", "color: black; font-family: sans-serif; font-size: 0.5em; font-weight: bolder;");
  
 }
 
