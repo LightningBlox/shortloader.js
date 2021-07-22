@@ -13,7 +13,6 @@ function move() {
       } else {
         width++;
         elem.style.width = width + "%";
-        elem.remove();
       }
     }
   }
@@ -25,6 +24,7 @@ function move() {
 function removeElems() {
   
   console.log("%cShortLoader.js has been loaded! Thank you for using *SHORTLOADER*", "color: black; font-family: sans-serif; font-size: 1em; font-weight: bolder;");
+  setInterval(function(){ elemf.remove(); }, 1300);
  
 }
 
