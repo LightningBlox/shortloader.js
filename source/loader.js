@@ -17,3 +17,12 @@ function move() {
     }
   }
 }
+
+function removeElems() {
+  const elems = document.querySelectorAll('.bar-div');
+  setTimeout(function() {
+    for (const e of elems) {
+      e.remove();
+    }
+  }, 1300);
+}
