@@ -26,4 +26,3 @@ function removeElems() {
     }
   }, 1600);
 }
-
