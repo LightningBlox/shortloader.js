@@ -25,9 +25,11 @@ function move() {
 
 function removeElems() {
   
-  console.log("%cShortLoader.js has been loaded! Thank you for using *SHORTLOADER*", "color: black; font-family: sans-serif; font-size: 0.5em; font-weight: bolder;");
+  console.log("%cShortLoader.js has been loaded! Thank you for using *SHORTLOADER*", "color: black; font-family: sans-serif; font-size: 0.8em; font-weight: bolder;");
  
 }
+
+console.log("Loaded using GITHUB")
 
 // Powered by ShortLoader.js
 // Thank you for installing it to your site!
