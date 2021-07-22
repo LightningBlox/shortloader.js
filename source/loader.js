@@ -3,7 +3,6 @@ function move() {
   if (i == 0) {
     i = 1;
     var elem = document.getElementById("bar-main");
-    var elemf = document.getElementById("bar-div");
     var width = 1;
     var id = setInterval(frame, 10);
     function frame() {
@@ -21,6 +20,7 @@ function move() {
   console.log("%cShortLoader.js! Making the web fast!", "color: #a0b5c3; font-family: sans-serif; font-size: 2em; font-weight: bolder;");
   console.log("%cVanillaJS, NO Dependencies!", "color: teal; font-family: sans-serif; font-size: 1em; font-weight: bolder;");
 
+    var elemf = document.getElementById("bar-div");
 function removeElems() {
   
   console.log("%cShortLoader.js has been loaded! Thank you for using *SHORTLOADER*", "color: black; font-family: sans-serif; font-size: 1em; font-weight: bolder;");
