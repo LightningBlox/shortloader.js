@@ -21,7 +21,7 @@ function move() {
   console.log("%cVanillaJS, NO Dependencies!", "color: teal; font-family: sans-serif; font-size: 1em; font-weight: bolder;");
 
 function removeElems() {
- var elemfor = document.querySelector('#bar-div');
+    var elem = document.getElemenstByClassName("bar-main");
   
   console.log("%cShortLoader.js has been loaded! Thank you for using *SHORTLOADER*", "color: black; font-family: sans-serif; font-size: 1em; font-weight: bolder;");
   
