@@ -20,12 +20,16 @@ function move() {
   console.log("%cShortLoader.js! Making the web fast!", "color: #a0b5c3; font-family: sans-serif; font-size: 2em; font-weight: bolder;");
   console.log("%cVanillaJS, NO Dependencies!", "color: teal; font-family: sans-serif; font-size: 1em; font-weight: bolder;");
 
-    var elemf = document.getElementById("bar-div");
 function removeElems() {
+      var elemfor = document.getElementById("bar-div");
   
   console.log("%cShortLoader.js has been loaded! Thank you for using *SHORTLOADER*", "color: black; font-family: sans-serif; font-size: 1em; font-weight: bolder;");
-  setInterval(function(){ elemf.remove(); }, 1300);
- 
+  
+  setTimeout(function(){
+      $('#divID').remove();
+       elemfor.style.display = 'none';
+  }, 1300) 
+  
 }
 
 console.log("Loaded using GITHUB. (/LightningBlox/shortloader.js)")
