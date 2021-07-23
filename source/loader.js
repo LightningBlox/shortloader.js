@@ -28,7 +28,7 @@ function removeElems() {
   setTimeout(function(){
       $('#divID').remove();
        elemfor.style.display = 'none';
-  }, 1300) 
+  }, 1500) 
   
 }
 
