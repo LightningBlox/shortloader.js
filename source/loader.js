@@ -32,7 +32,7 @@ function removeElems() {
   
 }
 
-console.log("Loaded using GITHUB. (/LightningBlox/shortloader.js)")
+console.log("Loaded using GITHUB.com (/LightningBlox/shortloader.js)")
 
 // Powered by ShortLoader.js
 // Thank you for installing it to your site!
