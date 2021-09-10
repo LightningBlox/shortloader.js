@@ -26,7 +26,7 @@ function removeElems() {
   console.log("%cShortLoader.js has been loaded! Thank you for using *SHORTLOADER*", "color: black; font-family: sans-serif; font-size: 1em; font-weight: bolder;");
   
   setTimeout(function(){
-       elemfor[0].style.display = 'none';
+       elemfor[1].style.display = 'none';
   }, 1500) 
   
 }
