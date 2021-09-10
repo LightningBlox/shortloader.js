@@ -21,12 +21,17 @@ function move() {
   console.log("%cVanillaJS, NO Dependencies!", "color: teal; font-family: sans-serif; font-size: 1em; font-weight: bolder;");
 
 function removeElems() {
-    var elemfor = document.querySelector('.bar-div');
   
   console.log("%cShortLoader.js has been loaded! Thank you for using *SHORTLOADER*", "color: black; font-family: sans-serif; font-size: 1em; font-weight: bolder;");
   
   setTimeout(function(){
-       elemfor[1].style.display = 'none';
+    
+    var elemClassNameRmv = "bar-div";
+    const elements = document.getElementsByClassName(elemClassNameRmv);
+    while(elements.length > 0){
+        elements[0].parentNode.removeChild(elements[0]);
+    }
+    
   }, 1500) 
   
 }
