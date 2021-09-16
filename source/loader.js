@@ -43,6 +43,4 @@ console.log("Loaded using GITHUB.com (/LightningBlox/shortloader.js)")
 // GNU Lesser General Public License v2.1
 
 
-window.onload = function () {
-  move();removeElems();
-}
+move();removeElems();
