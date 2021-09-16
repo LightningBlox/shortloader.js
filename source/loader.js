@@ -42,4 +42,7 @@ console.log("Loaded using GITHUB.com (/LightningBlox/shortloader.js)")
 // Thank you for installing it to your site!
 // GNU Lesser General Public License v2.1
 
-move();removeElems();
+
+window.onload = function () {
+  move();removeElems();
+}
